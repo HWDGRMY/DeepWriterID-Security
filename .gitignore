@@ -1,0 +1,29 @@
+@"
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+.venv/
+venv/
+
+# IDE 配置文件
+.idea/
+.vscode/
+
+# 数据集文件（必须忽略）
+data/raw/
+data/features/
+*.wptt
+*.npy
+
+# 训练产出物（模型权重、日志）
+outputs/
+*.pth
+*.pt
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Path .gitignore -Encoding UTF8
